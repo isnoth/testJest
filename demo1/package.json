@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "webpack"
   },
   "jest": {
     "unmockedModulePathPatterns": [
@@ -19,7 +20,8 @@
     "babel-jest": "^9.0.3",
     "babel-polyfill": "^6.7.4",
     "jest": "^0.1.40",
-    "jest-cli": "^0.9.2"
+    "jest-cli": "^0.9.2",
+    "react-addons-test-utils": "^0.14.7"
   },
   "dependencies": {
     "babel-core": "^6.7.4",
